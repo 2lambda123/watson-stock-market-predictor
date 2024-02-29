@@ -1,0 +1,44 @@
+repo_name: 2lambda123/watson-stock-market-predictor
+report_id: 3461d5546c57b2bed1f2cdc09f55a952
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:18:17+00:00'
+requested_by: markstur
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/watson-stock-market-predictor
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/2lambda123/watson-stock-market-predictor/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Sanjeev Ghimire
+  last_updated_on: 2019-04-11 14:20:02.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/2lambda123/watson-stock-market-predictor
+  detection_source: Repo Metadata
